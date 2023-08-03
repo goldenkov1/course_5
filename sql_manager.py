@@ -12,7 +12,7 @@ class HH():
     def request_api(self):
         """Получает JSON файл с вакансиями по AIP с сайта hh.ru"""
         all_hh_vacancies = []
-        for page in range(10):
+        for page in range(20):
             time.sleep(1)
             params = {
                     "text": "python",
@@ -26,8 +26,11 @@ class HH():
         all_hh_vacancies = self.request_api()
         hh_vacancies = []
         for vacancy in all_hh_vacancies:
-            if vacancy['employer']['id'] in employer_id:
-                hh_vacancies.append(vacancy)
+            try:
+                if vacancy['employer']['id'] in employer_id:
+                    hh_vacancies.append(vacancy)
+            except KeyError:
+                pass
         return hh_vacancies
 
 
