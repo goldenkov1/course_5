@@ -1,13 +1,15 @@
 import requests
 import time
+
 employer_id = ['856498', '3591220', '5674346', '1993194', '9417901', '5674346', '2389722', '1535743', '2590583',
-                   '2509056']
+               '2509056']
+
+
 class HH():
     """Класс для работы с АPI сайто hh.ru"""
+
     def __init__(self, url):
         self.url = url
-
-
 
     def request_api(self):
         """Получает JSON файл с вакансиями по AIP с сайта hh.ru"""
@@ -15,9 +17,9 @@ class HH():
         for page in range(20):
             time.sleep(1)
             params = {
-                    "text": "python",
-                    "page": page,
-                    "per_page": "100"
+                "text": "python",
+                "page": page,
+                "per_page": "100"
             }
             all_hh_vacancies.extend(requests.get(self.url, params=params).json()["items"])
         return all_hh_vacancies
@@ -27,10 +29,8 @@ class HH():
         hh_vacancies = []
         for vacancy in all_hh_vacancies:
             try:
-                if vacancy['employer']['id'] in employer_id:
+                if vacancy['area']['name'] == 'Москва':
                     hh_vacancies.append(vacancy)
             except KeyError:
                 pass
         return hh_vacancies
-
-
