@@ -58,8 +58,10 @@ class HH:
             vacancy = requests.get(f"https://api.hh.ru/vacancies?employer_id={i}").json()['items']
 
             for vacancy in vacancy:
+                vacancy_id = vacancy['id']
                 area = vacancy['area']['name']
                 name = vacancy['name']
+                employer_id = vacancy['employer']['id']
                 employer = vacancy['employer']['name']
                 url_vacancy = vacancy['alternate_url']
                 salary = vacancy['salary']
@@ -73,8 +75,10 @@ class HH:
                     currency = vacancy['salary']['currency'] if vacancy['salary'][
                         'currency'] else 'Currency not specified'
 
-                vac_emp.append({'area': area,
+                vac_emp.append({'vacancy_id': vacancy_id,
+                                'area': area,
                                 'name': name,
+                                'employer_id': employer_id,
                                 'employer': employer,
                                 'url': url_vacancy,
                                 'salary_from': salary_from,

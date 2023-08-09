@@ -1,85 +1,42 @@
-area,name,employer,url,salary_from,salary_to,currency
-Санкт-Петербург,Game Designer (стажер),Lesta Games,https://hh.ru/vacancy/71546404,0,0,Currency not specified
-Минск,QA Game Engineer (Мир Танков),Lesta Games,https://hh.ru/vacancy/84497318,0,0,Currency not specified
-Минск,Support Specialist,Lesta Games,https://hh.ru/vacancy/84255588,0,0,Currency not specified
-Санкт-Петербург,Junior Game Stores Manager,Lesta Games,https://hh.ru/vacancy/84437866,0,0,Currency not specified
-Санкт-Петербург,Стажер-тестировщик в отдел контроля качества 3D-объектов кораблей и танков/Art QA Trainee,Lesta Games,https://hh.ru/vacancy/83205104,0,0,Currency not specified
-Ташкент,Офис-менеджер,Lesta Games,https://hh.ru/vacancy/83747736,600,0,USD
-Москва,Python Developer (Infrastructure),Lesta Games,https://hh.ru/vacancy/84644126,0,0,Currency not specified
-Москва,Project Manager,Lesta Games,https://hh.ru/vacancy/82743920,0,0,Currency not specified
-Минск,Motion Designer (Минск),Lesta Games,https://hh.ru/vacancy/84570467,0,0,Currency not specified
-Санкт-Петербург,Project Manager / Менеджер проекта (Art Team),Lesta Games,https://hh.ru/vacancy/83577572,0,0,Currency not specified
-Санкт-Петербург,Технический писатель (Tech writer),Lesta Games,https://hh.ru/vacancy/84296706,0,0,Currency not specified
-Санкт-Петербург,Community Manager,Lesta Games,https://hh.ru/vacancy/79007676,0,0,Currency not specified
-Санкт-Петербург,2D Artist (portraits) / 2D художник (портреты) Middle / Senior,Lesta Games,https://hh.ru/vacancy/83778673,0,0,Currency not specified
-Минск,Tech Support Specialist,Lesta Games,https://hh.ru/vacancy/83110697,0,0,Currency not specified
-Минск,Content graphic designer (Мир танков),Lesta Games,https://hh.ru/vacancy/84573507,0,0,Currency not specified
-Санкт-Петербург,Аналитик информационной безопасности,Lesta Games,https://hh.ru/vacancy/84560361,0,0,Currency not specified
-Минск,Технический писатель (Tech writer),Lesta Games,https://hh.ru/vacancy/84473277,0,0,Currency not specified
-Санкт-Петербург,Copywriter,Lesta Games,https://hh.ru/vacancy/84203253,0,0,Currency not specified
-Москва,Game QA Engineer,Lesta Games,https://hh.ru/vacancy/80441349,0,0,Currency not specified
-Санкт-Петербург,Графический дизайнер (книга),Lesta Games,https://hh.ru/vacancy/81975418,0,0,Currency not specified
-Москва,Генеральный директор (Юрист),RocketData,https://hh.ru/vacancy/83205585,0,0,Currency not specified
-Минск,Специалист по кадрам (бухгалтер-экономист),RocketData,https://hh.ru/vacancy/84492607,0,0,Currency not specified
-Минск,Key Account Manager,RocketData,https://hh.ru/vacancy/83770940,0,0,Currency not specified
-Минск,Python developer (Platform team),RocketData,https://hh.ru/vacancy/83996084,0,0,Currency not specified
-Минск,Руководитель бизнес-направления,RocketData,https://hh.ru/vacancy/83434615,0,0,Currency not specified
-Москва,Head of Key Account Managers,RocketData,https://hh.ru/vacancy/84019414,0,0,Currency not specified
-Минск,Менеджер по развитию бизнеса (Малый бизнес),RocketData,https://hh.ru/vacancy/84254186,0,0,Currency not specified
-Минск,Group Manager,RocketData,https://hh.ru/vacancy/83199848,0,0,Currency not specified
-Минск,Менеджер по продажам,RocketData,https://hh.ru/vacancy/83337008,1000,2800,BYR
-Минск,Юрисконсульт,RocketData,https://hh.ru/vacancy/84081514,1300,1500,BYR
-Минск,Growth Marketing Manager,RocketData,https://hh.ru/vacancy/83199676,0,0,Currency not specified
-Минск,Head of International Sales,RocketData,https://hh.ru/vacancy/83448937,0,0,Currency not specified
-Минск,Business Development Manager (Spanish),RocketData,https://hh.ru/vacancy/84003734,0,0,Currency not specified
-Минск,Trainee Python Developer,УайтСнейк,https://hh.ru/vacancy/82034889,0,0,Currency not specified
-Минск,Middle Python Developer,УайтСнейк,https://hh.ru/vacancy/83465045,0,0,Currency not specified
-Москва,Руководитель административно-хозяйственного отдела,YADRO,https://hh.ru/vacancy/84628114,0,0,Currency not specified
-Москва,Тревел-координатор,YADRO,https://hh.ru/vacancy/84610829,0,0,Currency not specified
-Санкт-Петербург,Стажер-Программист Go / Golang Trainee in Telecom,YADRO,https://hh.ru/vacancy/84291964,0,0,Currency not specified
-Санкт-Петербург,Frontend developer (React),YADRO,https://hh.ru/vacancy/84379586,0,0,Currency not specified
-Тольятти,Руководитель административно-хозяйственного отдела,YADRO,https://hh.ru/vacancy/84495672,0,0,Currency not specified
-Москва,DevTools Python Backend Developer,YADRO,https://hh.ru/vacancy/84646229,0,0,Currency not specified
-Санкт-Петербург,DevTools Python Backend Developer,YADRO,https://hh.ru/vacancy/84646230,0,0,Currency not specified
-Москва,UX/UI дизайнер,YADRO,https://hh.ru/vacancy/84506826,0,0,Currency not specified
-Москва,"Юрист, коммерческое право",YADRO,https://hh.ru/vacancy/84689768,0,0,Currency not specified
-Санкт-Петербург,UX/UI дизайнер,YADRO,https://hh.ru/vacancy/84508464,0,0,Currency not specified
-Санкт-Петербург,HR Business Partner,YADRO,https://hh.ru/vacancy/84509129,0,0,Currency not specified
-Нижний Новгород,UX/UI дизайнер,YADRO,https://hh.ru/vacancy/84508465,0,0,Currency not specified
-Калуга,Инженер по качеству сборочного производства,YADRO,https://hh.ru/vacancy/84510167,0,0,Currency not specified
-Москва,Инженер эксплуатации IT-инфраструктуры,YADRO,https://hh.ru/vacancy/84646479,0,0,Currency not specified
-Санкт-Петербург,Младший инженер-программист (С++),YADRO,https://hh.ru/vacancy/84122316,0,0,Currency not specified
-Москва,Программист Python,YADRO,https://hh.ru/vacancy/84074908,0,0,Currency not specified
-Калуга,Инспектор входного контроля качества,YADRO,https://hh.ru/vacancy/84672787,0,0,Currency not specified
-Санкт-Петербург,Маркетолог (стажер),YADRO,https://hh.ru/vacancy/83760330,0,0,Currency not specified
-Москва,Маркетолог (стажер),YADRO,https://hh.ru/vacancy/83760329,0,0,Currency not specified
-Дубна,Специалист по планированию,YADRO,https://hh.ru/vacancy/84432257,0,0,Currency not specified
-Минск,Разработчик python,Олихвер В. В.,https://hh.ru/vacancy/84201801,2500,0,BYR
-Минск,Mobile Project Manager,Gismart,https://hh.ru/vacancy/84445486,0,0,Currency not specified
-Минск,Web QA Engineer,Gismart,https://hh.ru/vacancy/81705437,0,0,Currency not specified
-Минск,Executive Producer,Gismart,https://hh.ru/vacancy/83443722,0,0,Currency not specified
-Минск,Flutter Developer,Gismart,https://hh.ru/vacancy/84365128,0,0,Currency not specified
-Минск,DevOps Engineer,Gismart,https://hh.ru/vacancy/83932511,0,0,Currency not specified
-Москва,Frontend Developer (Middle),Сампад,https://hh.ru/vacancy/83966191,0,0,Currency not specified
-Минск,System Analyst/Системный аналитик,Сампад,https://hh.ru/vacancy/83354072,0,0,Currency not specified
-Минск,DevOps/SRE Engineer,Сампад,https://hh.ru/vacancy/84136852,0,0,Currency not specified
-Минск,Node.js Developer (Middle/Senior),Сампад,https://hh.ru/vacancy/84384050,0,0,Currency not specified
-Минск,Solution Architect/Tech Lead,Сампад,https://hh.ru/vacancy/83448816,0,0,Currency not specified
-Нижний Новгород,PHP Developer (Middle/Senior),Сампад,https://hh.ru/vacancy/84314226,0,0,Currency not specified
-Москва,PHP Developer (Middle/Senior),Сампад,https://hh.ru/vacancy/83965637,0,0,Currency not specified
-Минск,DevOps / site reliability engineer in AWS cloud infrastructure,Билетников Сергей Николаевич,https://hh.ru/vacancy/84168362,2000,0,USD
-Минск,"Senior Java Developer for serverless, microservices and legacy",Билетников Сергей Николаевич,https://hh.ru/vacancy/84168460,2000,0,EUR
-Минск,Business Development/Sales Manager,Он Зэ Спот Девелопмент,https://hh.ru/vacancy/83998607,0,0,Currency not specified
-Минск,AQA Engineer (Python) at 365Scores,Он Зэ Спот Девелопмент,https://hh.ru/vacancy/83352475,0,0,Currency not specified
-Минск,Junior Marketing Manager (Gamedev),Elephant Games,https://hh.ru/vacancy/84566579,0,1000,USD
-Москва,Marketing Manager (Gamedev),Elephant Games,https://hh.ru/vacancy/84074452,0,0,Currency not specified
-Армения,GameDev Project Manager,Elephant Games,https://hh.ru/vacancy/83559601,0,1300,USD
-Армения,Junior Marketing Manager (Gamedev),Elephant Games,https://hh.ru/vacancy/83960143,0,1000,USD
-Москва,Technical Designer (Unity),Elephant Games,https://hh.ru/vacancy/84566530,0,450,USD
-Москва,Mobile Game Developer (hidden object games),Elephant Games,https://hh.ru/vacancy/83811876,0,1000,USD
-Армения,DevOps Engineer,Elephant Games,https://hh.ru/vacancy/84021471,0,2000,USD
-Москва,Middle 2D Photobash Artist (hidden object),Elephant Games,https://hh.ru/vacancy/84494062,0,700,USD
-Москва,2D Photobash Artist (hidden object),Elephant Games,https://hh.ru/vacancy/83264759,0,0,Currency not specified
-Армения,Mobile Game Developer (hidden object games),Elephant Games,https://hh.ru/vacancy/83429845,0,0,Currency not specified
-Армения,Technical Designer (Unity),Elephant Games,https://hh.ru/vacancy/83999733,0,450,USD
-Армения,2D Photobash Artist (hidden object),Elephant Games,https://hh.ru/vacancy/83677460,0,700,USD
+vacancy_id,area,name,employer_id,employer,url,salary_from,salary_to,currency
+84302495,Москва,Стажер-разработчик Python (Удаленно) (Рейтинг на CodeForces - Важно!),736233,МДО,https://hh.ru/vacancy/84302495,60000,0,RUR
+84157394,Москва,Клиентский менеджер,736233,МДО,https://hh.ru/vacancy/84157394,184000,0,RUR
+84631676,Москва,Разработчик Odoo (Python),2753595,МосТрансАренда,https://hh.ru/vacancy/84631676,150000,200000,RUR
+84678036,Москва,Кладовщик-снабженец,2753595,МосТрансАренда,https://hh.ru/vacancy/84678036,80000,90000,RUR
+83770680,Москва,Менеджер по продажам,2753595,МосТрансАренда,https://hh.ru/vacancy/83770680,100000,0,RUR
+83617644,Москва,Руководитель отдела продаж,2753595,МосТрансАренда,https://hh.ru/vacancy/83617644,150000,250000,RUR
+83697654,Москва,Механик (выездной) по ⁢ремонту строительной спецтехники,2753595,МосТрансАренда,https://hh.ru/vacancy/83697654,110000,140000,RUR
+83697092,Москва,Механик по ремонту строительной техники,2753595,МосТрансАренда,https://hh.ru/vacancy/83697092,70000,80000,RUR
+84558768,Москва,Junior Python-разработчик,5269493,Blue underlined link,https://hh.ru/vacancy/84558768,110000,140000,RUR
+84558094,Москва,Middle+ Python-разработчик,5269493,Blue underlined link,https://hh.ru/vacancy/84558094,230000,270000,RUR
+84511566,Москва,QA \ Тестировщик,3471807,ЭС-АЙ Безопасность,https://hh.ru/vacancy/84511566,80000,0,RUR
+84671395,Москва,Middle Python Developer,3471807,ЭС-АЙ Безопасность,https://hh.ru/vacancy/84671395,200000,350000,RUR
+83617001,Москва,Python Developer,8178,Телеформ ИС,https://hh.ru/vacancy/83617001,120000,180000,RUR
+83807874,Москва,Системный администратор,8178,Телеформ ИС,https://hh.ru/vacancy/83807874,70000,0,RUR
+83295722,Санкт-Петербург,Оператор call-центра (удаленно),936465,Агент Умный полис,https://hh.ru/vacancy/83295722,45000,70000,RUR
+84358318,Санкт-Петербург,Junior+ QA Engineer в IT-компании,936465,Агент Умный полис,https://hh.ru/vacancy/84358318,100000,0,RUR
+83747049,Санкт-Петербург,Бизнес-ассистент,936465,Агент Умный полис,https://hh.ru/vacancy/83747049,70000,90000,RUR
+84018264,Санкт-Петербург,Middle+ Python Developer (backend),936465,Агент Умный полис,https://hh.ru/vacancy/84018264,250000,300000,RUR
+84270967,Санкт-Петербург,Frontend developer (Angular),936465,Агент Умный полис,https://hh.ru/vacancy/84270967,0,0,Currency not specified
+84200508,Санкт-Петербург,Ведущий системный аналитик,936465,Агент Умный полис,https://hh.ru/vacancy/84200508,0,300000,RUR
+83567321,Санкт-Петербург,Архитектор решений / Solution architect,936465,Агент Умный полис,https://hh.ru/vacancy/83567321,0,0,Currency not specified
+83288552,Москва,Менеджер по развитию В2В/Presales Manager/SDR,936465,Агент Умный полис,https://hh.ru/vacancy/83288552,70000,100000,RUR
+84765957,Москва,Разработчик Python,1875694,РусЭкспресс,https://hh.ru/vacancy/84765957,70000,100000,RUR
+83907794,Москва,Программист Python,1875694,РусЭкспресс,https://hh.ru/vacancy/83907794,80000,120000,RUR
+83785812,Москва,Экономист-аналитик (удаленно),1875694,РусЭкспресс,https://hh.ru/vacancy/83785812,50000,80000,RUR
+83270228,Москва,Оператор колл - центра (удаленно),1875694,РусЭкспресс,https://hh.ru/vacancy/83270228,22000,30000,RUR
+83515296,Москва,Специалист по работе с поставщиками,1875694,РусЭкспресс,https://hh.ru/vacancy/83515296,50000,0,RUR
+83787205,Москва,Специалист по тендерам,1875694,РусЭкспресс,https://hh.ru/vacancy/83787205,50000,0,RUR
+83516623,Москва,Специалист по работе с клиентами,1875694,РусЭкспресс,https://hh.ru/vacancy/83516623,50000,0,RUR
+83624979,Москва,Руководитель тендерного отдела,1875694,РусЭкспресс,https://hh.ru/vacancy/83624979,50000,70000,RUR
+82503535,Москва,Руководитель отдела по работе с маркетплейсами,1875694,РусЭкспресс,https://hh.ru/vacancy/82503535,80000,150000,RUR
+84448764,Москва,Python-разработчик,4937627,Avatec,https://hh.ru/vacancy/84448764,150000,200000,RUR
+84132429,Москва,Технический писатель,4937627,Avatec,https://hh.ru/vacancy/84132429,100000,200000,RUR
+84433047,Волгоград,Специалист отдела мониторинга голосовых роботов,4010751,KVINT,https://hh.ru/vacancy/84433047,36000,43000,RUR
+84443445,Москва,Middle Системный администратор Linux (ubuntu)/Devops,4010751,KVINT,https://hh.ru/vacancy/84443445,180000,280000,RUR
+83829617,Москва,"Python Developer Middle (Backend), удаленно",4010751,KVINT,https://hh.ru/vacancy/83829617,160000,240000,RUR
+83324797,Санкт-Петербург,Python Developer Middle (Backend),4010751,KVINT,https://hh.ru/vacancy/83324797,0,0,Currency not specified
+83336798,Санкт-Петербург,Системный аналитик,4010751,KVINT,https://hh.ru/vacancy/83336798,130000,180000,RUR
+84835419,Москва,UI/UX Дизайнер,4596113,Фабрика Решений,https://hh.ru/vacancy/84835419,80000,140000,RUR
+82396438,Москва,Менеджер проектов (IT),4596113,Фабрика Решений,https://hh.ru/vacancy/82396438,0,150000,RUR
+82929790,Москва,"Разработчик Python (Django, DRF)",4596113,Фабрика Решений,https://hh.ru/vacancy/82929790,150000,250000,RUR
