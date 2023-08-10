@@ -1,4 +1,4 @@
-DROP TABLE employers
+DROP TABLE employers;
 CREATE TABLE employers(
                 employer_id INTEGER PRIMARY KEY,
                 employer_name VARCHAR(255),
@@ -6,7 +6,7 @@ CREATE TABLE employers(
                 open_vacancy INTEGER
                 );
 
- DROP TABLE vacancies
+ DROP TABLE vacancies;
  CREATE TABLE vacancies(
                 vacancy_id INTEGER PRIMARY KEY,
                 area VARCHAR(255),
