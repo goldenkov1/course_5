@@ -21,7 +21,9 @@ class DBManager:
 
     def create_table(self):
         conn = self.conn_db()
+        conn.autocommit = True
         with conn.cursor() as cur:
+            cur.execute("DROP TABLE employers")
             cur.execute("""
             CREATE TABLE employers(   
                 employer_id INTEGER PRIMARY KEY,
@@ -32,11 +34,12 @@ class DBManager:
             """)
 
         with conn.cursor() as cur:
+            cur.execute("DROP TABLE vacancies")
             cur.execute("""
             CREATE TABLE vacancies(
                 vacancy_id INTEGER PRIMARY KEY,
                 area VARCHAR(255),
-                name TEXT,
+                name_vacancy TEXT,
                 employer_id INTEGER,
                 employer VARCHAR(255),
                 url_vacancy TEXT,
@@ -46,7 +49,6 @@ class DBManager:
                 )
             """)
         cur.close()
-        conn.commit()
         conn.close()
 
     def insert_emp(self):
@@ -101,7 +103,7 @@ class DBManager:
         """
         conn = self.conn_db()
         with conn.cursor() as cur:
-            cur.execute("SELECT employer, name, salary_from, url_vacancy FROM vacancies")
+            cur.execute("SELECT employer, name_vacancy, salary_from, url_vacancy FROM vacancies")
             rows = cur.fetchall()
             for row in rows:
                 print(row)
@@ -117,8 +119,19 @@ class DBManager:
 
     def get_vacancies_with_higher_salary(self):
         """получает список всех вакансий, у которых зарплата выше средней по всем вакансиям."""
-        pass
+        conn = self.conn_db()
+        with conn.cursor() as cur:
+            cur.execute("SELECT * FROM vacancies WHERE salary_from > (SELECT AVG(salary_from) FROM vacancies)")
+            rows = cur.fetchall()
+            for row in rows:
+                print(row)
 
     def get_vacancies_with_keyword(self):
         """получает список всех вакансий, в названии которых содержатся переданные в метод слова, например “python”."""
-        pass
+        conn = self.conn_db()
+        with conn.cursor() as cur:
+            cur.execute(" SELECT * FROM vacancies WHERE name_vacancy LIKE '%Python%'")
+            rows = cur.fetchall()
+            for row in rows:
+                print(row)
+
